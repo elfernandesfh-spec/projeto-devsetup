@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Crie a Sua Conta na Devsetup</h1>
+    <nav>
+        <a href="index.html">Volte a Página Inicial</a>
+    </nav><br><br>
+    <form action="">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="digite seu email aqui"><br><br>
+        <label for="senha">Senha</label><br>
+        <input type="password" name="senha" id="senha" placeholder="digite sua senha aqui"><br><br>
+        <label for="data-nascimento">Data de Nascimento</label><br>
+        <input type="date" name="data-nascimento" id="data-nascimento"><br><br>
+        <label for="genero">Selecione seu Tipo de Cliente</label><br>
+        <input type="radio" name="tipo" id="cliente comum" value="cliente comum">
+        <label for="cliente comum">Cliente Comum</label>
+        <input type="radio" name="tipo" id="empresa" value="empresa">
+        <label for="empresa">Empresa</label><br><br>
+        <p>Seu Interesse</p><select name="interesse" id="interesse">
+            <option value="hardware">Hardware</option>
+            <option value="perifericos">Periféricos</option>
+            <option value="desenvolvimento">Desenvolvimento</option>
+        </select><br><br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
